@@ -634,6 +634,7 @@ old 5b8c51 */
 .theme-color-text {
   color: #43e10d !important;
 }
+
 /* Responsive design custom css */
 @media only screen and (max-width: 600px) {
   .owl-theme .owl-dots .owl-dot {
@@ -662,6 +663,12 @@ old 5b8c51 */
   }
   .city-names-slider .item1 {
     font-size: 20px;
+  }
+  .home-top-header-carousel img {
+    object-fit: contain;
+  }
+  #header-carousel .carousel-item {
+    min-height: 150px;
   }
 }
 .carousel-item-delivery-new .item img {
