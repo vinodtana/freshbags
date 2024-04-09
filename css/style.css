@@ -618,10 +618,20 @@ old 5b8c51 */
   font-weight: 600;
 }
 .logo-name-header img {
-  height: 60px;
+  height: 75px;
+}
+.align-items-center-logo {
+  padding: 0px;
+}
+.about-ig-sec-row-al img {
+  height: 250px;
+}
+.about_img2 {
+  width: 300px;
+  object-fit: cover;
 }
 /* Responsive design custom css */
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 600px) {
   .owl-theme .owl-dots .owl-dot {
     display: none;
   }
@@ -638,6 +648,13 @@ old 5b8c51 */
   }
   .owl-carousel .owl-next {
     right: 0px;
+  }
+  .slideInRight-mobile {
+    font-size: 34px;
+  }
+  .city-names-slider {
+    margin-bottom: 60px;
+    grid-template-columns: 1fr 1fr;
   }
 }
 .carousel-item-delivery-new .item img {
