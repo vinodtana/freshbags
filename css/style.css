@@ -576,7 +576,38 @@
   background: red !important;
   transition: 0.2s ease-in-out;
 }
-
+.city-names-slider {
+  display: grid;
+  margin-top: 20px;
+  gap: 16px;
+  margin-bottom: 160px;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.img-fluid12 {
+  height: 400px;
+  object-fit: cover;
+}
+.py-522 {
+  margin-top: 50px;
+}
+.city-names-slider .item1 {
+  font-size: 18px;
+  font-weight: 700;
+  color: #000;
+}
+.location-select select {
+  background-color: #fff !important;
+}
+.location-select label {
+  padding-top: 3px;
+  font-size: 14px;
+  opacity: 0.65;
+}
+.thankyou-get-to-you p {
+  color: #5b8c51;
+  font-size: 24px;
+  font-weight: 600;
+}
 /* Responsive design custom css */
 @media only screen and (max-width: 480px) {
   .owl-theme .owl-dots .owl-dot {
