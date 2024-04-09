@@ -600,7 +600,7 @@ old 5b8c51 */
   margin-top: 50px;
 }
 .city-names-slider .item1 {
-  font-size: 18px;
+  font-size: 22px;
   font-weight: 700;
   color: #000;
 }
@@ -630,6 +630,10 @@ old 5b8c51 */
   width: 300px;
   object-fit: cover;
 }
+.slideInRight-mobile1,
+.theme-color-text {
+  color: #43e10d !important;
+}
 /* Responsive design custom css */
 @media only screen and (max-width: 600px) {
   .owl-theme .owl-dots .owl-dot {
@@ -655,6 +659,9 @@ old 5b8c51 */
   .city-names-slider {
     margin-bottom: 60px;
     grid-template-columns: 1fr 1fr;
+  }
+  .city-names-slider .item1 {
+    font-size: 20px;
   }
 }
 .carousel-item-delivery-new .item img {
