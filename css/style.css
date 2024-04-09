@@ -1,9 +1,11 @@
 /********** Template CSS **********/
+/* 43e10d
+old 5b8c51 */
 :root {
-  --primary: #5b8c51;
+  --primary: #43e10d;
   --secondary: #eddd5e;
   --light: #f7f7f7;
-  --dark: #404a3d;
+  --dark: #fff;
 }
 
 .back-to-top {
@@ -45,15 +47,22 @@
   transition: 0.5s;
   font-weight: 500;
 }
-
+.bg-primary {
+  background-color: #43e10d !important;
+  color: #fff;
+}
 .btn-primary,
 .btn-outline-primary:hover {
   color: var(--light);
+  background: #43e10d;
+  border: none;
 }
 
 .btn-secondary,
 .btn-outline-secondary:hover {
   color: var(--dark);
+  background: #43e10d;
+  border: none;
 }
 
 .btn-square {
@@ -492,7 +501,7 @@
 }
 
 .logo-name-header {
-  color: #5b8c51;
+  color: #43e10d;
   letter-spacing: -2.9px;
   font-family: "Open Sans", sans-serif;
 }
@@ -500,7 +509,7 @@
   height: 100%;
 }
 .footer-fresh-bg {
-  background-color: #5b8c51 !important;
+  background-color: #43e10d !important;
 }
 
 .footer-fresh-bg * {
@@ -542,7 +551,7 @@
   position: absolute;
   top: 40%;
   transform: translateY(-50%);
-  background-color: #5b8c51 !important;
+  background-color: #43e10d !important;
   color: #fff !important;
   font-size: 1.5em !important;
   width: 40px;
@@ -558,7 +567,7 @@
 .owl-carousel .owl-prev:hover,
 .owl-carousel .owl-next:hover {
   box-shadow: 0px 0px 0px 0px #000;
-  background-color: 5b8c51 !important;
+  background-color: 43e10d !important;
   color: #fff !important;
 }
 .owl-carousel .owl-prev {
@@ -604,9 +613,12 @@
   opacity: 0.65;
 }
 .thankyou-get-to-you p {
-  color: #5b8c51;
+  color: #43e10d;
   font-size: 24px;
   font-weight: 600;
+}
+.logo-name-header img {
+  height: 60px;
 }
 /* Responsive design custom css */
 @media only screen and (max-width: 480px) {
